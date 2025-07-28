@@ -137,7 +137,6 @@ const App = () => {
               <p className="text-red-500">{TrendingMoviesErrorMessage}</p>
             ) : trendingMovies.length > 0 && (
               <div className="relative mt-4">
-                {/* Scroll Left Button */}
                 <button
                   className="scroll-arrow left-0"
                   onClick={() => scrollTrending(-1)}
@@ -145,7 +144,6 @@ const App = () => {
                   ◀
                 </button>
 
-                {/* Movie List */}
                 <ul
                   id="trending-container"
                   className="flex flex-row overflow-x-auto gap-5 -mt-10 w-full hide-scrollbar scroll-smooth"
@@ -164,7 +162,6 @@ const App = () => {
                   ))}
                 </ul>
 
-                {/* Scroll Right Button */}
                 <button
                   className="scroll-arrow right-0"
                   onClick={() => scrollTrending(1)}
@@ -191,6 +188,29 @@ const App = () => {
               </ul>
             )}
           </section>
+
+          <footer className="c-space pt-10 pb-3 flex justify-between items-center flex-wrap gap-5">
+            <div className="text-white flex gap-2">
+                <p>Terms & Conditions</p>
+                <p>|</p>
+                <p>Privacy Policy</p>
+            </div>
+            <div className="flex gap-3">
+                <a href="https://github.com/AQG53" target="_blank" className="social-icon">
+                    <img src="/github.svg" alt="github" className="w-1/2 h-1/2"/>
+                </a>
+                <a href="https://x.com/AbizerQ" target="_blank" className="social-icon">
+                    <img src="/twitter.svg" alt="twitter" className="w-1/2 h-1/2"/>
+                </a>
+                <a href="https://www.linkedin.com/in/abizer-qutbuddin/" target="_blank" className="social-icon">
+                    <img src="/linkedin.svg" alt="linkedin" className="w-1/2 h-1/2"/>
+                </a>
+                <a href="https://www.instagram.com/abizerqutbuddin/" target="_blank" className="social-icon">
+                    <img src="/instagram.svg" alt="instagram" className="w-1/2 h-1/2"/>
+                </a>
+            </div>
+            <p className="text-white">Made with ❤️ by Abizar Qutbuddin</p>
+          </footer>
         </div>
       </div>
     </main>

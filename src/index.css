@@ -54,6 +54,14 @@
 }
 
 @layer components {
+  .c-space {
+    @apply sm:px-10 px-5;
+  }
+
+  .social-icon {
+    @apply w-12 h-12 rounded-full flex justify-center items-center bg-black border border-black;
+  }
+
   .scroll-arrow {
     @apply absolute top-1/2 -translate-y-1/2 bg-gradient-to-r from-[#030014] to-[#1a1a40] text-white rounded-full w-10 h-10 flex items-center justify-center shadow-lg hover:scale-110 transition-all duration-200 z-10;
   }
@@ -67,7 +75,7 @@
   }
 
   .wrapper {
-    @apply px-5 py-12 xs:p-10 max-w-7xl mx-auto flex flex-col relative z-10;
+    @apply px-5 py-10 xs:p-10 max-w-7xl mx-auto flex flex-col relative z-10;
   }
 
   .trending {
