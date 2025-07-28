@@ -1,12 +1,39 @@
-# React + Vite
+# 🎬 MoviVerse
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+MoviVerse is a sleek and responsive web app for discovering trending and top-rated movies. Powered by the TMDB API, it offers real-time search, dynamic movie listings, and a user-friendly interface to explore the world of cinema.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 🔍 Live movie search with debouncing
+- 📈 Trending movies of the week
+- 🎞️ High-quality movie posters and details
+- 🌙 Dark-themed, clean and modern UI
+- 📱 Fully responsive design
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Frontend:** React, Tailwind CSS
+- **API:** [TMDB (The Movie Database)](https://www.themoviedb.org/)
+- **State Management:** React Hooks
+- **Utilities:** Debounced input using `react-use`
+
+## 📦 Installation
+
+```bash
+git clone https://github.com/your-username/moviverse.git
+cd moviverse
+npm install
+```
+
+## 📷 Screenshots
+- Coming soon...
+
+## 📌 Notes
+- Make sure to keep your .env file private.
+- Uses TMDB’s /search/movie and /trending/movie/week endpoints.
+
+## 🧑‍💻 Author
+- Made with ❤️ by Abizar Qutbuddin
+
+## 📄 License
+- This project is licensed under the MIT License.
